@@ -1,0 +1,159 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+    padding: 0% !important;
+}
+.navbar-brand img{
+    height: 2.5rem;
+    padding-left: 1.3rem;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-weight: 600;
+    float: right;
+    text-align: center;
+}
+
+
+/* ------------banner section----------------------- */
+
+#banner{
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+}
+.promo-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 6.3rem;
+}
+
+.play-video{
+    width: 2.8rem;
+    margin: 1.5rem;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ----------------------services-------------------------------- */
+
+
+#services{
+    padding: 5rem 0;
+}
+#services img{
+    width: 6.3rem;
+    margin-top:4rem ;
+    padding: 5px;
+}
+#services h4{
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.Services-title::before{
+    content: '';
+    height: 0.3rem;
+    background: #7b1798;
+    width: 12.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.Services-title::after{
+    content: '';
+    height: 10px;
+    background: #7b1798;
+    width: 3.1rem;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn{
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;  
+}
+#services .btn:hover{
+    transform: scale(1.1);
+}
+
+/* ----------------------about us-------------------------------- */
+#about-us{
+    padding: 5rem 0;
+    background: #f8f9fa;
+}
+#about-us .about-list li{
+    margin-top: 1rem;
+}
+
+/* ---------------------textimonials------------*/
+#textimonials-us{
+    margin-top: 5rem;
+}
+.textimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 500px;
+    margin-bottom: 50px;
+}
+.textimonials img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+.user-info{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* ----------------SOCIAL MEDIA--------------------- */
+#social-media{
+    background: #f8f9fa;
+    padding: 6.3rem 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.btn-group img{
+    width: 4rem;
+    transition: all 0.3s ease;
+}
+.btn-group img:hover{
+    transform: translateY(-10px);
+}
+/* ---------------------footer--------------------- */
+#contact{
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+}
+.logoimg{
+    width: 6rem;
+}
+.input1{
+    outline: none !important;
+}
+.btn-color{
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+    transition: all 0.3s ease;  
+}
+.btn-color:hover{
+    /* transform: scale(1.1); */
+    background: linear-gradient(to left,#a517ba, #5f1782);
+   
+}
